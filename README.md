@@ -39,7 +39,7 @@ git clone https://github.com/ncudnos/arcolinux_i3_dotfiles
 - Go to the `arcolinux_i3_dotfiles` folder, then:
 
 ```zsh
-mv alacritty ~/.config/ && mv i3 ~/.config/ && mv neofetch ~/.config/ && mv nvim ~/.config/ && mv rofi ~/.config/ && rm ~/.config/mimeapps.list && mv mimeapps.list ~/.config/ && sudo rm -rf /etc/profile && sudo mv profile /etc/ && rm -rf ~/.zshrc && mv zshrc_config .zshrc && mv .zshrc ~
+rm ~/.config/alacritty ~/.config/neofetch ~/.config/rofi ~/.config i3 && mv alacritty ~/.config/ && mv i3 ~/.config/ && mv neofetch ~/.config/ && mv nvim ~/.config/ && mv rofi ~/.config/ && rm ~/.config/mimeapps.list && mv mimeapps.list ~/.config/ && sudo rm -rf /etc/profile && sudo mv profile /etc/ && rm -rf ~/.zshrc && mv zshrc_config .zshrc && mv .zshrc ~
 ```
 
 - Also, remember set zsh as default shell:
